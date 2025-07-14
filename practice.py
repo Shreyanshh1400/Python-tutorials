@@ -563,3 +563,12 @@
 #         oddsum+=x
 # print(f"Sum of odd numbers= {oddsum}")
 # print(f"Sum of even numbers= {evensum}")
+
+# nums=int(input("Enter any number"))
+# rev=0
+# num2=nums
+# while nums>0:
+#     rem=nums%10
+#     rev=(rev*10)+rem
+#     nums//=10
+# print(f"Reverse of {num2} is {rev}")
