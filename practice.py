@@ -526,3 +526,40 @@
 #     print("Incorrect username")
 # elif Entusrname!=username and Entpass!=password:
 #     print("Invalid credentials")
+
+# nums=int(input("Enter any number"))
+# p=1
+# for i in range(nums,1,-1):
+#     p*=i
+# print(p)
+
+# a=0
+# b=1
+# n=int(input("Enter number of terms"))
+# print(a)
+# print(b)
+# c=a+b
+# for i in range(n-2):
+#     c=b+i
+#     print(c)
+
+# sums=0
+# avg=1
+# for i in range(10):
+    # nums=int(input(f"Enter {i} number= "))
+    # sums+=nums
+# avg=sums/10
+# print(f"Sum= {sums}")
+# print(f"Average= {avg}")
+
+# lower_limit=int(input("Enter lower limit"))
+# upper_limit=int(input("Enter upper limit"))
+# oddsum=0
+# evensum=0
+# for x in range(lower_limit,upper_limit):
+#     if x%2==0:
+#         evensum+=x
+#     else:
+#         oddsum+=x
+# print(f"Sum of odd numbers= {oddsum}")
+# print(f"Sum of even numbers= {evensum}")
