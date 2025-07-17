@@ -12,8 +12,7 @@ if answer=="1":
     else:
         print("A shadowy beast with glowing red eyes emerges from the fog. It lunges. You try to dodge, but it's too fast.GAME OVER. You were overwhelmed.")
 elif answer=="2":
-    print("You cautiously make your way towards the glow. The fog thins slightly here, and you notice the glow is coming from a small, dilapidated hut. The whispers are still present, but seem to originate from the hut. You see a flickering light inside.")
-    answer=input("You are now at the hut. You can: 1)ENTER THE HUT to investigate. 2)PEEK THROUGH THE WINDOW first.")
+    answer=input("You cautiously make your way towards the glow. The fog thins slightly here, and you notice the glow is coming from a small, dilapidated hut. The whispers are still present, but seem to originate from the hut. You see a flickering light inside.You are now at the hut. You can: 1)ENTER THE HUT to investigate. 2)PEEK THROUGH THE WINDOW first.")
     if answer=="1":
         answer=input("You push open the creaky door. Inside, a single flickering candle illuminates a dusty table. On the table, you see an old, leather-bound book. As you approach, the whispers grow louder, seeming to emanate from the book itself. You can: 1)OPEN THE BOOK. 2)LEAVE THE BOOK ALONE and look for another way out.")
         if answer=="1":
@@ -29,8 +28,9 @@ elif answer=="2":
             else:
                 print("You decide the cave is too dangerous. You return to the front of the hut, but the fog has grown thick again, and you can no longer see the path you took to get there.GAME OVER. You are lost forever in the Whispering Woods.")
         else:
-            answer=input("You enter the hut, now knowing it's empty. You see the old, leather-bound book on the table, just as you saw from the window. The whispers are still present, seeming to emanate from the book itself. You can:1)OPEN THE BOOK.2)LEAVE THE BOOK ALONE and look for another way out.")
+            nswer=input("You enter the hut, now knowing it's empty. You see the old, leather-bound book on the table, just as you saw from the window. The whispers are still present, seeming to emanate from the book itself. You can:1)OPEN THE BOOK.2)LEAVE THE BOOK ALONE and look for another way out.")
             if answer=="1":
                 print(r"As you open the book, a blinding light erupts from its pages, engulfing you. The whispers coalesce into a single, booming voice: You have awakened the ancient knowledge! The path is now clear! The light fades, and you find yourself standing outside the woods, the sun shining brightly.You have escaped,YOU WIN!")
             else:
                 print("You decide the book is too risky. You search the rest of the hut but find nothing else of interest. Disappointed, you leave the hut and try to retrace your steps, but the fog has rolled back in, completely disorienting you.GAME OVER. You are lost forever in the Whispering Woods.")
+print("Thanks for playing")
